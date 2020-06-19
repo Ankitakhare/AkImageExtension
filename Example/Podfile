@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AkImageExtension_Example' do
+  pod 'AkImageExtension', :path => '../'
+
+  target 'AkImageExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
